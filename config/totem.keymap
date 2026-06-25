@@ -8,7 +8,7 @@
 
 #define BASE 0
 #define GAME 1
-#define NAV  2
+#define NAVI 2
 #define SYM  3
 #define ADJ  4
 #define GAM2 5
