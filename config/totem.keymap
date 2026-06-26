@@ -1,5 +1,5 @@
 
-#define ZMK_POINTING_DEFAULT_MOVE_VAL 1500  // default: 600
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 2000  // default: 600
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 20    // default: 10       
 
 #include <behaviors.dtsi>
@@ -71,13 +71,15 @@ label= "BASE"                              ;
                 &kp Q       &kp W       &kp F       &kp P       &kp G           &kp J       &kp L       &kp U       &kp Y       &kp SEMI
                 &mt LGUI A  &mt LALT R  &mt LCTRL S &mt LSHFT T &kp D           &kp H       &mt RSHFT N &mt RCTRL E &mt RALT I  &mt RGUI O
     &kp Z       &kp Z       &kp X       &kp C       &kp V       &kp B           &kp K       &kp M       &kp COMMA   &kp DOT     &kp FSLH    &kp FSLH
-                                        &kp TAB     &kp SPACE   &lt NAVI ESC    &lt SYM DEL &kp BSPC    &kp RET
+                                        &lt NUM TAB &kp SPACE   &lt NAVI ESC    &lt SYM RET &kp BSPC    &lt NAVI DEL
                         >;
                 };
 
 // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
                 game_layer {
+
+
 // ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 label= "GAME"                              ;
 // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
@@ -120,8 +122,8 @@ label= "NAVI"                              ;
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
                 &mkp MB3     &mmv MOVE_LEFT  &mmv MOVE_UP      &mmv MOVE_DOWN   &mmv MOVE_RIGHT        &mmv MOVE_LEFT &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT &mkp MB3
-                &mkp MB2   &kp LEFT    &kp UP    &kp DOWN   &kp RIGHT        &kp LEFT    &kp DOWN   &kp UP   &kp RIGHT   &mkp MB2
-    &trans      &mkp MB1     &kp HOME   &kp PG_UP    &kp PG_DN   &kp END        &kp END    &kp PG_DN   &kp PG_UP   &kp HOME   &mkp MB1 &trans      
+                &mkp MB1   &kp LEFT    &kp UP    &kp DOWN   &kp RIGHT        &kp LEFT    &kp DOWN   &kp UP   &kp RIGHT   &mkp MB2
+    &trans      &mkp MB2   &kp HOME   &kp PG_UP    &kp PG_DN   &kp END        &kp END    &kp PG_DN   &kp PG_UP   &kp HOME   &mkp MB1 &trans      
                                         &trans      &trans      &trans          &mo ADJ     &kp KP_N0   &trans      
                         >;
                 };
