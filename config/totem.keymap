@@ -68,13 +68,13 @@
                 timeout-ms = <50>;
                 layers = <2>;
             };
-            combo_rscrlup {
+            combo_lrevlayer {
                 key-positions = <33 34>;
                 bindings = <&sl 3>;
                 timeout-ms = <50>;
                 layers = <0 2 4 6 7>;
             };
-            combo_rscrlup {
+            combo_rrevlayer {
                 key-positions = <35 36>;
                 bindings = <&sl 3>;
                 timeout-ms = <50>;
