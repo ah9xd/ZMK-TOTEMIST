@@ -146,7 +146,7 @@ label= "GAME"                              ;
                 &kp TAB     &kp Q       &kp W       &kp E       &kp R           &kp J       &kp L       &kp U       &kp Y       &kp SEMI
                 &kp LCTRL   &kp A       &kp S       &kp D       &kp F           &kp H       &mt RSHFT N &mt RCTRL E &mt RALT I  &mt RGUI O
     &kp LALT    &kp LSHFT   &kp Z       &kp X       &kp C       &kp V           &kp K       &kp M       &kp COMMA   &kp DOT     &kp FSLH    &kp FSLH
-                                        &mo NUM     &kp SPACE   &lt GAM2 ESC    &lt SYM RET &kp BSPC    &kp BSPC
+                                        &mo NUM     &kp SPACE   &lt GAM2 ESC    &lt NUM RET &kp BSPC    &kp BSPC
                         >;
                 };
 
@@ -251,7 +251,7 @@ label= "GAM2"                              ;
                 &kp O       &kp I       &kp U       &kp Y       &kp T           &kp J       &kp L       &kp U       &kp Y       &kp SEMI
                 &kp L       &kp K       &kp J       &kp H       &kp G           &kp H       &mt RSHFT N &mt RCTRL E &mt RALT I  &mt RGUI O
     &lt NAVI BSLH &kp DOT   &kp COMMA   &kp M       &kp N       &kp B           &kp K       &kp M       &kp COMMA   &kp DOT     &kp FSLH    &kp FSLH
-                                        &kp P       &kp SEMI    &trans          &lt SYM RET &kp BSPC    &kp BSPC
+                                        &kp P       &kp SEMI    &trans          &lt NUM RET &kp BSPC    &kp BSPC
                         >;
                 };
 
