@@ -195,9 +195,9 @@ label= "REV"                               ;
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-                &kp p    &kp o      &kp i    &kp u    &kp y                     &kp t   &kp r    &kp e   &kp w     &kp q       
-                &kp semi   &kp l      &kp k   &kp j      &kp h                  &kp g   &kp f    &kp d   &kp s     &kp a 
-    &trans      &kp fslh &kp dot    &kp comma      &kp m      &kp n          &kp b &kp v &kp c &kp x  &kp z   &trans         
+                &kp P    &kp O      &kp I    &kp U    &kp Y                     &kp T   &kp R    &kp E   &kp W     &kp Q
+                &kp SEMI &kp L      &kp K    &kp J    &kp H                  &kp G   &kp F    &kp D   &kp S     &kp A
+    &trans      &kp FSLH &kp DOT    &kp COMMA      &kp M      &kp N          &kp B &kp V &kp C &kp X  &kp Z   &trans         
                         &lt NAVI DEL      &kp BSPC      &lt NUM RET         &lt NAVI ESC      &kp SPACE    &lt NUM TAB      
                         >;
                 };
