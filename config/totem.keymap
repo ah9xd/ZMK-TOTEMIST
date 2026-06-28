@@ -70,13 +70,13 @@
             };
             combo_lrevlayer {
                 key-positions = <33 34>;
-                bindings = <&sl 3>;
+                bindings = <&sl 2>;
                 timeout-ms = <50>;
                 layers = <0 3 4 6 7>;
             };
             combo_rrevlayer {
                 key-positions = <35 36>;
-                bindings = <&sl 3>;
+                bindings = <&sl 2>;
                 timeout-ms = <50>;
                 layers = <0 3 4 6 7>;
             };
