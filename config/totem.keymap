@@ -32,6 +32,54 @@
             //    key-positions = <0 1>;
             //    bindings = <&kp ESC>;
             //};
+            combo_rshft {
+                key-positions = <6 16>;
+                bindings = <&sk RSHFT>;
+                timeout-ms = <50>;
+                layers = <0 2 3 4 6 7>;
+            };
+            combo_rctrl {
+                key-positions = <7 17>;
+                bindings = <&sk RCTRL>;
+                timeout-ms = <50>;
+                layers = <0 2 3 4 6 7>;
+            };
+            combo_ralt {
+                key-positions = <8 18>;
+                bindings = <&sk RALT>;
+                timeout-ms = <50>;
+                layers = <0 2 3 4 6 7>;
+            };
+            combo_rgui {
+                key-positions = <9 19>;
+                bindings = <&sk RGUI>;
+                timeout-ms = <50>;
+                layers = <0 2 3 4 6 7>;
+            };
+            combo_lshft {
+                key-positions = <3 13>;
+                bindings = <&sk LSHFT>;
+                timeout-ms = <50>;
+                layers = <0 2 3 4 6 7>;
+            };
+            combo_lctrl {
+                key-positions = <2 12>;
+                bindings = <&sk LCTRL>;
+                timeout-ms = <50>;
+                layers = <0 2 3 4 6 7>;
+            };
+            combo_lalt {
+                key-positions = <1 11>;
+                bindings = <&sk LALT>;
+                timeout-ms = <50>;
+                layers = <0 2 3 4 6 7>;
+            };
+            combo_lgui {
+                key-positions = <0 10>;
+                bindings = <&sk LGUI>;
+                timeout-ms = <50>;
+                layers = <0 2 3 4 6 7>;
+            };
             combo_caps {
                 key-positions = <22 23 24>;
                 bindings = <&kp CAPS>;
@@ -75,7 +123,7 @@
                 layers = <3>;
             };
             combo_rscrlup {
-                key-positions = <28 29 30>;
+                key-positions = <26 27 28>;
                 bindings = <&msc SCRL_UP>;
                 timeout-ms = <50>;
                 layers = <3>;
