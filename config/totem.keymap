@@ -33,49 +33,49 @@
             //    bindings = <&kp ESC>;
             //};
             combo_rshft {
-                key-positions = <6 16>;
+                key-positions = <16 27>;
                 bindings = <&sk RSHFT>;
                 timeout-ms = <50>;
                 layers = <0 2 3 4 6 7>;
             };
             combo_rctrl {
-                key-positions = <7 17>;
+                key-positions = <17 28>;
                 bindings = <&sk RCTRL>;
                 timeout-ms = <50>;
                 layers = <0 2 3 4 6 7>;
             };
             combo_ralt {
-                key-positions = <8 18>;
+                key-positions = <18 29>;
                 bindings = <&sk RALT>;
                 timeout-ms = <50>;
                 layers = <0 2 3 4 6 7>;
             };
             combo_rgui {
-                key-positions = <9 19>;
+                key-positions = <19 30>;
                 bindings = <&sk RGUI>;
                 timeout-ms = <50>;
                 layers = <0 2 3 4 6 7>;
             };
             combo_lshft {
-                key-positions = <3 13>;
+                key-positions = <13 24>;
                 bindings = <&sk LSHFT>;
                 timeout-ms = <50>;
                 layers = <0 2 3 4 6 7>;
             };
             combo_lctrl {
-                key-positions = <2 12>;
+                key-positions = <12 23>;
                 bindings = <&sk LCTRL>;
                 timeout-ms = <50>;
                 layers = <0 2 3 4 6 7>;
             };
             combo_lalt {
-                key-positions = <1 11>;
+                key-positions = <11 22>;
                 bindings = <&sk LALT>;
                 timeout-ms = <50>;
                 layers = <0 2 3 4 6 7>;
             };
             combo_lgui {
-                key-positions = <0 10>;
+                key-positions = <10 21>;
                 bindings = <&sk LGUI>;
                 timeout-ms = <50>;
                 layers = <0 2 3 4 6 7>;
