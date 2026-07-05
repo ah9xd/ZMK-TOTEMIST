@@ -81,6 +81,36 @@
                 timeout-ms = <50>;
                 layers = <0 2 3 4 6 7>;
             };
+            combo_lrpar {
+                key-positions = <1 2 3>;
+                bindings = <&kp RPAR>;
+                timeout-ms = <50>;
+                layers = <2>;
+            };
+            combo_llpar {
+                key-positions = <1 2 3>;
+                bindings = <&kp LPAR>;
+                timeout-ms = <50>;
+                layers = <0 4 6 7>;
+            };
+            combo_rlpar {
+                key-positions = <6 7 8>;
+                bindings = <&kp LPAR>;
+                timeout-ms = <50>;
+                layers = <2>;
+            };
+            combo_rrpar {
+                key-positions = <6 7 8>;
+                bindings = <&kp RPAR>;
+                timeout-ms = <50>;
+                layers = <0 4 6 7>;
+            };
+            combo_gam2esc {
+                key-positions = <11 12 13>;
+                bindings = <&kp ESC>;
+                timeout-ms = <50>;
+                layers = <5>;
+            };
             combo_caps {
                 key-positions = <22 23 24>;
                 bindings = <&kp CAPS>;
@@ -224,7 +254,7 @@ label= "GAME"                              ;
                 &kp TAB     &kp Q       &kp W       &kp E       &kp R           &kp J       &kp L       &kp U       &kp Y       &kp SEMI
                 &kp LCTRL   &kp A       &kp S       &kp D       &kp F           &kp H       &mt RSHFT N &mt RCTRL E &mt RALT I  &mt RGUI O
     &kp LALT    &kp LSHFT   &kp Z       &kp X       &kp C       &kp V           &kp K       &kp M       &kp COMMA   &kp DOT     &kp FSLH    &kp FSLH
-                                        &mo NUM     &kp SPACE   &lt GAM2 ESC    &lt NUM RET &kp BSPC    &kp BSPC
+                                        &mo NUM     &kp SPACE   &mo GAM2        &lt NUM RET &kp BSPC    &kp BSPC
                         >;
                 };
 
@@ -248,7 +278,8 @@ label= "REV"                               ;
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
                 &kp P    &kp O      &kp I    &kp U    &kp Y                     &kp T   &kp R    &kp E   &kp W     &kp Q
-                &kp SEMI &kp L      &kp K    &kp J    &kp H                  &kp G   &kp F    &kp D   &kp S     &kp A
+//                &kp SEMI &kp L      &kp K    &kp J    &kp H                  &kp G   &kp F    &kp D   &kp S     &kp A
+                &mt LGUI SEMI &mt RALT L      &mt LCTRL K  &mt LSHFT J  &kp H   &kp G   &mt LSHFT F  &mt LCTRL D  &mt LALT S  &mt LGUI A
     &trans      &kp FSLH &kp DOT    &kp COMMA      &kp M      &kp N          &kp B &kp V &kp C &kp X  &kp Z   &trans         
                         &lt NAVI DEL      &kp BSPC      &lt NUM RET         &lt NAVI ESC      &kp SPACE    &lt NUM TAB      
                         >;
@@ -355,8 +386,9 @@ label= "NUM"                              ;
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
                 &kp LBKT    &kp N7   &kp N8   &kp N9   &kp RBKT        &kp LBKT    &kp N7   &kp N8   &kp N9   &kp RBKT
-                &kp GRAVE   &kp N4   &kp N5   &kp N6   &kp EQUAL       &kp EQUAL   &kp N4   &kp N5   &kp N6   &kp GRAVE
-    &trans      &kp BSLH    &kp N1   &kp N2   &kp N3   &kp N0          &kp N0      &kp N1   &kp N2   &kp N3   &kp BSLH  &trans      
+//                &kp BSLH   &kp N4   &kp N5   &kp N6   &kp EQUAL       &kp EQUAL   &kp N4   &kp N5   &kp N6   &kp BSLH
+                &mt LGUI BSLH   &mt LALT N4   &mt LCTRL N5   &mt LSHFT N6   &kp EQUAL       &kp EQUAL   &mt LSHFT N4  &mt LCTRL N5 &mt RALT N6  &mt LGUI BSLH
+    &trans      &kp GRAVE    &kp N1   &kp N2   &kp N3   &kp N0          &kp N0      &kp N1   &kp N2   &kp N3   &kp GRAVE  &trans      
                                      &trans   &lt MINUS ADJ  &mo NUMP  &mo NUMP    &lt MINUS ADJ     &trans      
                         >;
                 };
