@@ -81,6 +81,30 @@
                 timeout-ms = <50>;
                 layers = <0 2 3 4 6 7>;
             };
+            combo_lequal {
+                key-positions = <11 12 13>;
+                bindings = <&kp EQUAL>;
+                timeout-ms = <50>;
+                layers = <0>;
+            };
+            combo_rminus {
+                key-positions = <16 17 18>;
+                bindings = <&kp MINUS>;
+                timeout-ms = <50>;
+                layers = <0>;
+            };
+            combo_requal {
+                key-positions = <16 17 18>;
+                bindings = <&kp EQUAL>;
+                timeout-ms = <50>;
+                layers = <0>;
+            };
+            combo_lminus {
+                key-positions = <11 12 13>;
+                bindings = <&kp MINUS>;
+                timeout-ms = <50>;
+                layers = <0>;
+            };
             combo_lrpar {
                 key-positions = <1 2 3>;
                 bindings = <&kp RPAR>;
