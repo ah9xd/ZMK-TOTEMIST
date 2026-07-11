@@ -212,6 +212,7 @@
 		bindings = <&kp LALT>
 		timeout-ms = <50>;
 		layers = <1 5>
+	    };
     };
 
     macros {
