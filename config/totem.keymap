@@ -93,7 +93,7 @@
                 timeout-ms = <50>;
                 layers = <0 4 6 7>;
             };
-            combo_rdqt( {
+            combo_rdqt {
                 key-positions = <17 18>;
                 bindings = <&kp DQT>;
 		timeout-ms = <50>;
