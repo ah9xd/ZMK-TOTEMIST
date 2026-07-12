@@ -7,7 +7,7 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
-#include <dt-bindings/zmk/behaviors.h>
+//#include <dt-bindings/zmk/behaviors.h>
 
 
 #define BASE 0
@@ -19,19 +19,6 @@
 #define NUM  6
 #define NUMP 7
 #define FUNC 8
-
-/ {
-    behaviors {
-        sh: stick-hold {
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
-            flavor = "hold-preferred";
-            tapping-term-ms = <50>;
-            bindings = <&kt>, <&kp>;
-            display-name = "Stick-Hold";
-        };
-    };
-};
 
 &mt {
   quick-tap-ms = <140>;
@@ -300,18 +287,6 @@
 		timeout-ms = <50>;
 		layers = <1 5>;
 	    };
-	    combo_gameshift {
-		key-positions = <21 22>;
-		bindings = <&sh LSHFT LSHFT>;
-		timeout-ms = <200>;
-		layers = <1 5>;
-	    };
-	    combo_gamectrl {
-		key-positions = <10 11>;
-		bindings = <&sh LCTRL LCTRL>;
-		timeout-ms = <200>;
-		layers = <1 5>;
-	    };
 	    combo_gametab {
 		key-positions = <0 1>;
 		bindings = <&kp TAB>;
@@ -387,8 +362,8 @@ label= "GAME"                              ;
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
                 &kp T     &kp Q       &kp W       &kp E       &kp R           &kp J       &kp L       &kp U       &kp Y       &kp SEMI
-                &kp G   &kp A       &kp S       &kp D       &kp F           &kp H       &mt RSHFT N &mt RCTRL E &mt RALT I  &mt RGUI O
-    &kp LALT    &kp B   &kp Z       &kp X       &kp C       &kp V           &kp K       &kp M       &kp COMMA   &kp DOT     &kp FSLH    &kp FSLH
+                &kp LSHFT &kp A       &kp S       &kp D       &kp F           &kp H       &mt RSHFT N &mt RCTRL E &mt RALT I  &mt RGUI O
+    &kp LALT    &kp LCTRL &kp Z       &kp X       &kp C       &kp V           &kp K       &kp M       &kp COMMA   &kp DOT     &kp FSLH    &kp FSLH
                                         &mo NUM     &kp SPACE   &mo GAM2        &lt NUM RET &kp BSPC    &kp BSPC
                         >;
                 };
@@ -494,9 +469,9 @@ label= "GAM2"                              ;
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-                &kp P       &kp O       &kp I       &kp U       &kp Y           &kp J       &kp L       &kp U       &kp Y       &kp SEMI
-                &kp SEMI       &kp L       &kp K       &kp J       &kp H           &kp H       &mt RSHFT N &mt RCTRL E &mt RALT I  &mt RGUI O
-  &lt NAVI BSLH &kp BSLH     &kp DOT     &kp COMMA   &kp M       &kp N           &kp K       &kp M       &kp COMMA   &kp DOT     &kp FSLH    &kp FSLH
+                &kp O       &kp I       &kp U       &kp Y   &kp T              &kp J       &kp L       &kp U       &kp Y       &kp SEMI
+                &kp L       &kp K       &kp J       &kp H   &kp G              &kp H       &mt RSHFT N &mt RCTRL E &mt RALT I  &mt RGUI O
+  &lt NAVI BSLH &kp DOT     &kp COMMA   &kp M       &kp N   &kp B              &kp K       &kp M       &kp COMMA   &kp DOT     &kp FSLH    &kp FSLH
                                         &kp P       &kp SEMI    &trans          &lt NUM RET &kp BSPC    &kp BSPC
                         >;
                 };
