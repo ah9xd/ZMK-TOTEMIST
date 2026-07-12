@@ -301,20 +301,20 @@
 		layers = <1 5>;
 	    };
 	    combo_gameshift {
-		key-positions = <21 22>
-		bindings = <&sh LSHFT, LSHFT>
+		key-positions = <21 22>;
+		bindings = <&sh LSHFT, LSHFT>;
 		timeout-ms = <50>;
 		layers = <1 5>;
 	    };
 	    combo_gamectrl {
-		key-positions = <10 11>
-		bindings = <&sh LCTRL, LCTRL>
+		key-positions = <10 11>;
+		bindings = <&sh LCTRL, LCTRL>;
 		timeout-ms = <50>;
 		layers = <1 5>;
 	    };
 	    combo_gametab {
-		key-positions = <0 1>
-		bindings = <&kp TAB>
+		key-positions = <0 1>;
+		bindings = <&kp TAB>;
 		timeout-ms = <50>;
 		layers = <1 5>;
 	    };
