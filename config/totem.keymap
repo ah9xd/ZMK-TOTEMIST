@@ -287,12 +287,6 @@
 		timeout-ms = <50>;
 		layers = <1 5>;
 	    };
-	    combo_gametab {
-		key-positions = <0 1>;
-		bindings = <&kp TAB>;
-		timeout-ms = <200>;
-		layers = <1 5>;
-	    };
     };
 
     macros {
@@ -469,7 +463,7 @@ label= "GAM2"                              ;
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-                &kp O       &kp I       &kp U       &kp Y   &kp T              &kp J       &kp L       &kp U       &kp Y       &kp SEMI
+                &kp O       &kp I       &kp U       &kp Y   &kp TAB            &kp J       &kp L       &kp U       &kp Y       &kp SEMI
                 &kp L       &kp K       &kp J       &kp H   &kp G              &kp H       &mt RSHFT N &mt RCTRL E &mt RALT I  &mt RGUI O
   &lt NAVI BSLH &kp DOT     &kp COMMA   &kp M       &kp N   &kp B              &kp K       &kp M       &kp COMMA   &kp DOT     &kp FSLH    &kp FSLH
                                         &kp P       &kp SEMI    &trans          &lt NUM RET &kp BSPC    &kp BSPC
